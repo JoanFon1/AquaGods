@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const config = require("./config.json");
 
 client.on("ready", () => {
     console.log("Listo Para Ayudar!");
@@ -33,5 +32,8 @@ client.on("message", (message) => {
   if (message.content.startsWith(prefix + "help")) {
     message.reply("Mis comandos de momento son a!info a!staff a!ip a!discord ")
   }
+    {
+    "prefix":"a!"
+    }
 });
 client.login("config.json"); 
