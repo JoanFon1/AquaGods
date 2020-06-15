@@ -35,4 +35,4 @@ client.on("message", (message) => {
   }
   "prefix"("a!")
 });
-client.login(NzIyMDE3NjUzODU3OTc2Mzgx.XudEBA.ML7kATMTgdhEee5M_M09zwveWo8); 
+client.login("NzIyMDE3NjUzODU3OTc2Mzgx.XudEBA.ML7kATMTgdhEee5M_M09zwveWo8"); 
