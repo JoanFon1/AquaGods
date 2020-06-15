@@ -33,6 +33,5 @@ client.on("message", (message) => {
   if (message.content.startsWith(prefix + "help")) {
     message.reply("Mis comandos de momento son a!info a!staff a!ip a!discord ")
   }
-  "prefix"("a!")
 });
-client.login("NzIyMDE3NjUzODU3OTc2Mzgx.XudEBA.ML7kATMTgdhEee5M_M09zwveWo8"); 
+client.login("config.json"); 
